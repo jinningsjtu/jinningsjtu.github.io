@@ -384,7 +384,7 @@ def encrypt(encrypt_subindex=True):
     print("Please export MY_WEBSITE_PASSWORD in system environment (e.g. .zshrc)")
     password = os.environ['MY_WEBSITE_PASSWORD']
     print("Current password is: {}".format(password))
-    command = "staticrypt index.html {} -o index.html --decrypt-button Unlock".format(password)
+    command = "staticrypt index.html {} -o index.html --decrypt-button Unlock -t password_template.html".format(password)
     print(command)
     os.system(command)
     if encrypt_subindex:
