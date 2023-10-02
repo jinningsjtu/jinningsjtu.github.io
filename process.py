@@ -394,6 +394,7 @@ def encrypt(encrypt_subindex=True):
             print(command)
             os.system(command)
             os.system("mv encrypted/{} ./{}".format("subindex{}.html".format(i), "subindex{}.html".format(i)))
+    os.system("rm -r encrypted")
 
 def main():
     print("\n-----------------------\nHTML Building Process Start\n-----------------------\n")
