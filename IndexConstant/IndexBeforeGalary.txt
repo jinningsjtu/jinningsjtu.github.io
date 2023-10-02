@@ -1,0 +1,36 @@
+	  	</ul>
+			</div>
+		</div>
+
+		<div id="fh5co-portfolio" data-section="portfolio">
+			<div class="container">
+				<div class="row r-pb">
+					<div class="col-md-8 col-md-offset-2 text-center section-heading">
+						<h2 class="fh5co-section-title animate-box">Galary</h2>
+						<p class="fh5co-lead animate-box">
+						<!-- </br> -->
+						<p>想和你去海边小镇</p>
+						<p>享受一段被海风 吹慢的日子</p>
+						<p>想和你拥有一次</p>
+						<p>如影相随的旅途</p>
+						<p>你像颗流星划过我生命</p>
+						<p>带给我灿烂轨迹</p>
+						<p>大城小事慢慢说给你听</p>
+						<p> -- 《我会是你手边静守的树》</p>
+						<p></p>
+						<p>
+						<audio controls="controls" height="100" width="100" id="myaudio">
+						<source src="wohui.mp3" type="audio/mp3" />
+						<embed height="100" width="100" src="wohui.mp3"/>
+						</audio>
+							<script>
+							var audio = document.getElementById("myaudio");
+							audio.volume = 0.4;
+							</script>
+						</p>
+						<p></p>
+						</br>
+						<a>点击以下相册查看照片</a>
+					</div>
+				</div>
+				<div class="row">

@@ -1,0 +1,40 @@
+<body>
+
+	<div id="fh5co-header">
+		<div class="container">
+			<!-- Mobile Toggle Menu Button -->
+			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+			<div id="fh5co-logo">
+				<a href="index.html">喜欢你</a>
+			</div>
+			<nav id="fh5co-main-nav">
+				<ul>
+					<li><a href="#" data-nav-section="home">Home</a></li>
+					<li><a href="#" data-nav-section="portfolio">Galary</a></li>
+					<li><a href="#" data-nav-section="timeline">Timeline</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="fh5co-main">
+		<div class="fh5co-overlay-mobile"></div>
+		<div id="fh5co-home" class="js-fullheight" data-section="home">
+
+			<div class="flexslider">
+
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-text">
+					<div class="container">
+						<div class="row text-center">
+							<h1 class="animate-box">ljn和wty的故事</h1>
+							<div class="fh5co-go animate-box">
+								<a href="#" class="js-fh5co-next">
+									See Galary
+									<span><i class="icon-arrow-down2"></i></span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			  	<ul class="slides">

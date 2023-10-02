@@ -1,0 +1,12 @@
+);" data-stellar-background-ratio="0.5"></li>
+			  	</ul>
+
+			</div>
+		</div>
+
+		<div id="fh5co-content">
+			<div class="container">
+				<div class="row r-pb">
+					<div class="col-md-8 col-md-offset-2 text-center section-heading">
+						<h2 class="fh5co-section-title animate-box">Intro Text</h2>
+						<p class="fh5co-lead animate-box">

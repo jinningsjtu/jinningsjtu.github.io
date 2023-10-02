@@ -1,0 +1,13 @@
+</h1>
+							<div class="fh5co-go animate-box">
+								<a href="#" class="js-fh5co-next">
+									View Images
+									<span><i class="icon-arrow-down2"></i></span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			  	<ul class="slides">
+			   	<li style="background-image: url(

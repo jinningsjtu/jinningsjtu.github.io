@@ -1,0 +1,45 @@
+</div>
+
+			</div>
+		</div>
+
+		<div id="fh5co-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="fh5co-footer-widget">
+							<p>All Rights Reserved.</p>
+							<p>Designed by Li</a></p>
+							<a href="index.html?staticrypt_logout">Logout</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="fh5co-footer-widget">
+							<ul class="fh5co-social pull-right">
+								<li>
+									<a href="#"><i class="icon-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-vine"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-behance"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-google"></i></a>
+								</li>
+							</ul>
+						<div class="fh5co-footer-widget">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div> <!-- END fh5co-page -->
+
+	</body>
+</html>
