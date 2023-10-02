@@ -384,14 +384,16 @@ def encrypt(encrypt_subindex=True):
     print("Please export MY_WEBSITE_PASSWORD in system environment (e.g. .zshrc)")
     password = os.environ['MY_WEBSITE_PASSWORD']
     print("Current password is: {}".format(password))
-    command = "staticrypt index.html {} -o index.html --decrypt-button Unlock -t password_template.html".format(password)
+    command = "staticrypt index.html -p {} --short -o index.html --template-button Unlock --template-instructions \"Enter password to continue\" -t password_template.html".format(password)
     print(command)
     os.system(command)
+    os.system("mv encrypted/{} ./{}".format("index.html", "index.html"))
     if encrypt_subindex:
         for i in range(1, subcnt + 1):
-            command = "staticrypt subindex{}.html {} -o subindex{}.html --decrypt-button Unlock".format(i, password, i)
+            command = "staticrypt subindex{}.html -p {} --short -o subindex{}.html --template-button Unlock --template-instructions \"Enter password to continue\" -t password_template.html".format(i, password, i)
             print(command)
             os.system(command)
+            os.system("mv encrypted/{} ./{}".format("subindex{}.html".format(i), "subindex{}.html".format(i)))
 
 def main():
     print("\n-----------------------\nHTML Building Process Start\n-----------------------\n")
