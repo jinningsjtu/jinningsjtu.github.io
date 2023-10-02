@@ -370,6 +370,13 @@ def stdlizeFilename():
             if file.find(".jpeg") != -1:
                 os.system("mv " + os.path.join(root, file) + " " + os.path.join(root, file.replace(".jpeg", ".jpg")))
                 print("Modified name from " + os.path.join(root,file).replace(rootdir, "") + " into jpg format.")
+            if file.find(".HEIC") != -1:
+                os.system("magick convert {} {}".format(
+                os.path.join(root, file),
+                os.path.join(root, file.replace(".HEIC", ".jpg"))
+                ))
+                os.system("rm " + os.path.join(root, file))
+                print("Modified name from " + os.path.join(root,file).replace(rootdir, "") + " into jpg format.")
 
 def encrypt(encrypt_subindex=True):
     # Static HTML encryption based on https://github.com/robinmoisson/staticrypt
